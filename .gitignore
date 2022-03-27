@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ignore users env
+*/__pycache__/*
+*/venv/*
+*.idea*
+*.DS_Store*
+
+# removing test.db
+*test.db
